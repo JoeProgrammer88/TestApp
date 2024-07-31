@@ -17,6 +17,7 @@ namespace TestApp
         /// <returns></returns>
         public static bool IsWithinRange(int value, int min, int max)
         {
+            // Ensure number is within range
             return value >= min && value <= max;
         }
     }
