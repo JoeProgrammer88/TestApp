@@ -8,6 +8,13 @@ namespace TestApp
 {
     public static class Validator
     {
+        /// <summary>
+        /// This checks that a integer is within an inclusive range
+        /// </summary>
+        /// <param name="value">The number to check</param>
+        /// <param name="min">The inclusive lower</param>
+        /// <param name="max"></param>
+        /// <returns></returns>
         public static bool IsWithinRange(int value, int min, int max)
         {
             return value >= min && value <= max;
